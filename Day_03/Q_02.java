@@ -26,6 +26,6 @@ public class Q_02 {
             }
         }
 
-        sc.close();
+        
     }
 }
