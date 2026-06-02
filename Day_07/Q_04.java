@@ -1,12 +1,11 @@
 import java.util.*;
 public class Q_04{
     public static void main(String[] args) {
-        int num,rev;
+        int num;
         Scanner sc=new Scanner(System.in);
         System.out.println("ENTER A NUMBER:");
         num=sc.nextInt();
-        rev=reverse(num,0);
-        System.out.print(rev);
+        System.out.print(reverse(num, 0));
     }
     static int reverse(int n,int rev){
         if(n==0){
