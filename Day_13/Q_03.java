@@ -1,7 +1,7 @@
 import java.util.*;
 public class Q_03{
     public static void main(String[] args) {
-        int num,sum=0,avg=0,max,min,temp;
+        int num,max,min,temp;
         Scanner sc=new Scanner(System.in);
         System.out.println("ENTER THE SIZE OF THE ARRAY:");
         num=sc.nextInt();
