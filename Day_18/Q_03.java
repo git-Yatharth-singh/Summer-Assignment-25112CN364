@@ -19,12 +19,12 @@ public class Q_03{
             int mid=(big+end)/2;
 
             if(arr[mid]==key){
-                System.out.println("KEY FOUND AT: "+ mid);
+                System.out.println("ELEMENT FOUND AT: "+ mid);
                 found=true;
                 break;
             }
             else if(arr[mid]>key){
-                end--;;
+                end--;
             }
             else if(arr[mid]<key){
                 big++;
