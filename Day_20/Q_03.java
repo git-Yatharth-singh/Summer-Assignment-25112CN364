@@ -2,7 +2,7 @@ import java.util.*;
 public class Q_03{
     public static void main(String[] args) {
         Scanner sc=new Scanner (System.in);
-        boolean sym=false;
+
         System.out.print("Enter the number of rows: ");
         int rows = sc.nextInt();
         System.out.print("Enter the number of columns: ");
